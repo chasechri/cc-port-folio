@@ -1,0 +1,230 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+/* header */
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 2.75rem;
+  position: sticky;
+  background-color: rgb(199, 218, 212);
+  border: 1px solid;
+}
+
+header h1 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: .5rem;
+}
+
+header nav ul li a {
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* header end */
+
+/* footer */
+
+footer {
+  background-color: rgb(199, 218, 212);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 2.75rem;
+  padding-right: 2.75rem;
+  border: 1px solid;
+}
+
+footer h2 {
+  font-size: 1.5rem;
+}
+
+footer nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+footer nav ul li a {
+  font-size: 1.2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+footer nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* footer end */
+
+/* about me */
+
+.about-me {
+  background-color: rgb(231, 249, 231);
+  display: flex;
+  flex-direction: row;
+  margin: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-top: 2rem;
+  padding: 1rem;
+  border-radius: 10px;
+  border: 1px solid;
+}
+
+.about-me-text {
+  padding-left: 1rem;
+}
+
+.about-me-text h2 {
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.about-me-text p {
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+
+.about-me-img {
+  width: 15rem;
+  border-radius: 5px;
+}
+
+/* about me end */
+
+/* work */
+
+.work h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  border-bottom: 1.5px solid;
+  width: 25%;
+  margin-left: 37.5%;
+  margin-right: 37.5%;
+}
+
+.run-buddy {
+  text-align: center;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  background-color: rgb(231, 249, 231);
+  border: 1px solid;
+  border-radius: 10px;
+}
+
+.run-buddy:hover {
+  background-color: rgb(199, 218, 212);
+}
+
+.run-buddy h3 {
+  font-size: 2rem;
+  font-weight: 300;
+  padding: .9rem;
+  padding-bottom: .1rem;
+  text-decoration: underline;
+}
+
+.portfolio-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 2rem;
+}
+
+.horiseon,
+.national-park-weather,
+.quiz-app,
+.random-password,
+.readme-gen,
+.portfolio-gen,
+.taskmaster {
+  background-color: rgb(231, 249, 231);
+  border: 1px solid;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}
+
+.horiseon:hover,
+.national-park-weather:hover,
+.quiz-app:hover,
+.random-password:hover,
+.readme-gen:hover,
+.portfolio-gen:hover,
+.taskmaster:hover {
+  background-color: rgb(199, 218, 212);
+}
+
+.horiseon h3,
+.national-park-weather h3,
+.quiz-app h3,
+.random-password h3,
+.readme-gen h3,
+.portfolio-gen h3,
+.taskmaster h3 {
+  font-size: 1.5rem;
+  font-weight: 200;
+  text-align: center;
+  /* border-bottom: 1px solid; */
+  text-decoration: underline;
+  font-weight: 400;
+  /* background-color: rgb(199, 218, 212); */
+  border-radius: 10px 10px 0 0;
+}
+
+.horiseon p,
+.national-park-weather p,
+.quiz-app p,
+.random-password p,
+.readme-gen p,
+.portfolio-gen p,
+.taskmaster p {
+  text-align: center;
+  padding-bottom: .2rem;
+}
+
+.run-buddy p {
+  padding-bottom: .2rem;
+}
+
+.run-buddy-img {
+  /* width: 30rem; */
+  border-radius: 0 0 10px 10px;
+}
+
+.horiseon-img,
+.quiz-img,
+.national-park-img,
+.random-password-img,
+.readme-gen-img,
+.port-gen-img,
+.taskmaster-img {
+  width: 25rem;
+  border-radius: 0 0 10px 10px;
+}
+
+
