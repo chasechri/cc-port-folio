@@ -164,7 +164,10 @@ footer nav ul li a:hover {
 .portfolio-gen,
 .taskmaster,
 .zookeepr,
-.team-profile {
+.team-profile,
+.employee-track,
+.work-day,
+.ecom {
   background-color: rgb(231, 249, 231);
   border: 1px solid;
   border-radius: 10px;
@@ -179,7 +182,10 @@ footer nav ul li a:hover {
 .portfolio-gen:hover,
 .taskmaster:hover,
 .zookeepr:hover,
-.team-profile:hover {
+.team-profile:hover,
+.employee-track:hover,
+.work-day:hover,
+.ecom:hover {
   background-color: rgb(199, 218, 212);
 }
 
@@ -191,7 +197,10 @@ footer nav ul li a:hover {
 .portfolio-gen h3,
 .taskmaster h3,
 .zookeepr h3,
-.team-profile h3 {
+.team-profile h3,
+.employee-track h3,
+.work-day h3,
+.ecom h3 {
   font-size: 1.5rem;
   font-weight: 200;
   text-align: center;
@@ -210,7 +219,10 @@ footer nav ul li a:hover {
 .portfolio-gen p,
 .taskmaster p,
 .zookeepr p,
-.team-profile p {
+.team-profile p,
+.employee-track p,
+.work-day p,
+.ecom p {
   text-align: center;
   padding-bottom: .2rem;
 }
@@ -224,6 +236,10 @@ footer nav ul li a:hover {
   border-radius: 0 0 10px 10px;
 }
 
+.ecom-img {
+  height: 22rem;
+}
+
 .horiseon-img,
 .quiz-img,
 .national-park-img,
@@ -232,7 +248,10 @@ footer nav ul li a:hover {
 .port-gen-img,
 .taskmaster-img,
 .zookeepr-img,
-.team-profile-img {
+.team-profile-img,
+.employee-track-img,
+.workday-img,
+.ecom-img {
   width: 25rem;
   border-radius: 0 0 10px 10px;
 }
