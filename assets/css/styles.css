@@ -169,7 +169,8 @@ footer nav ul li a:hover {
 .team-profile,
 .employee-track,
 .work-day,
-.ecom {
+.ecom,
+.pickup {
   background-color: rgb(231, 249, 231);
   border: 1px solid;
   border-radius: 10px;
@@ -188,7 +189,8 @@ footer nav ul li a:hover {
 .team-profile:hover,
 .employee-track:hover,
 .work-day:hover,
-.ecom:hover {
+.ecom:hover,
+.pickup:hover {
   background-color: rgb(199, 218, 212);
 }
 
@@ -203,7 +205,8 @@ footer nav ul li a:hover {
 .team-profile h3,
 .employee-track h3,
 .work-day h3,
-.ecom h3 {
+.ecom h3,
+.pickup h3 {
   font-size: 1.5rem;
   font-weight: 200;
   text-align: center;
@@ -225,9 +228,11 @@ footer nav ul li a:hover {
 .team-profile p,
 .employee-track p,
 .work-day p,
-.ecom p {
+.ecom p,
+.pickup p {
   text-align: center;
   padding-bottom: .2rem;
+  display: flex;
 }
 
 .run-buddy p {
@@ -254,7 +259,8 @@ footer nav ul li a:hover {
 .team-profile-img,
 .employee-track-img,
 .workday-img,
-.ecom-img {
+.ecom-img,
+.pickup-img {
   width: 25rem;
   border-radius: 0 0 10px 10px;
 }
