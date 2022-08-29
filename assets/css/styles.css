@@ -170,12 +170,21 @@ footer nav ul li a:hover {
 .employee-track,
 .work-day,
 .ecom,
-.pickup {
+.pickup,
+.pizza-hunt {
   background-color: rgb(231, 249, 231);
   border: 1px solid;
   border-radius: 10px;
   margin-bottom: 2rem;
-  box-shadow: 0 0 10px rgb(0 0 0 / 50%)
+  box-shadow: 0 0 10px rgb(0 0 0 / 50%);
+  max-width: 400px;
+  /* width: 33%;
+  margin-left: 2px;
+  margin-right: 2px; */
+}
+
+.pickup p {
+  max-width: 400px;
 }
 
 .horiseon:hover,
@@ -190,7 +199,8 @@ footer nav ul li a:hover {
 .employee-track:hover,
 .work-day:hover,
 .ecom:hover,
-.pickup:hover {
+.pickup:hover,
+.pizza-hunt:hover {
   background-color: rgb(199, 218, 212);
 }
 
@@ -206,7 +216,8 @@ footer nav ul li a:hover {
 .employee-track h3,
 .work-day h3,
 .ecom h3,
-.pickup h3 {
+.pickup h3,
+.pizza-hunt h3 {
   font-size: 1.5rem;
   font-weight: 200;
   text-align: center;
@@ -229,10 +240,12 @@ footer nav ul li a:hover {
 .employee-track p,
 .work-day p,
 .ecom p,
-.pickup p {
-  text-align: center;
+.pickup p,
+.pizza-hunt p {
   padding-bottom: .2rem;
   display: flex;
+  text-align: center;
+  justify-content: center;
 }
 
 .run-buddy p {
@@ -260,7 +273,8 @@ footer nav ul li a:hover {
 .employee-track-img,
 .workday-img,
 .ecom-img,
-.pickup-img {
+.pickup-img,
+.pizza-hunt-img {
   width: 25rem;
   border-radius: 0 0 10px 10px;
 }
