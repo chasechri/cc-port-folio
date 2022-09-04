@@ -154,8 +154,9 @@ footer nav ul li a:hover {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
-  margin: 2rem;
+  justify-content: flex-start;
+  margin-left: 2rem;
+  margin-top: 2rem;
 }
 
 .horiseon,
@@ -172,15 +173,15 @@ footer nav ul li a:hover {
 .ecom,
 .pickup,
 .pizza-hunt {
-  background-color: rgb(231, 249, 231);
+    background-color: rgb(231, 249, 231);
   border: 1px solid;
   border-radius: 10px;
   margin-bottom: 2rem;
   box-shadow: 0 0 10px rgb(0 0 0 / 50%);
   max-width: 400px;
-  /* width: 33%;
-  margin-left: 2px;
-  margin-right: 2px; */
+  /* width: 33%; */
+  /* margin-left: 1rem; */
+  margin-right: 1.5rem; 
 }
 
 .pickup p {
