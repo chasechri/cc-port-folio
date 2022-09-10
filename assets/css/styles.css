@@ -172,7 +172,10 @@ footer nav ul li a:hover {
 .work-day,
 .ecom,
 .pickup,
-.pizza-hunt {
+.pizza-hunt,
+.note,
+.contact,
+.social-net {
     background-color: rgb(231, 249, 231);
   border: 1px solid;
   border-radius: 10px;
@@ -201,7 +204,10 @@ footer nav ul li a:hover {
 .work-day:hover,
 .ecom:hover,
 .pickup:hover,
-.pizza-hunt:hover {
+.pizza-hunt:hover,
+.note:hover,
+.contact:hover,
+.social-net:hover {
   background-color: rgb(199, 218, 212);
 }
 
@@ -218,7 +224,10 @@ footer nav ul li a:hover {
 .work-day h3,
 .ecom h3,
 .pickup h3,
-.pizza-hunt h3 {
+.pizza-hunt h3,
+.note h3,
+.contact h3,
+.social-net h3 {
   font-size: 1.5rem;
   font-weight: 200;
   text-align: center;
@@ -242,7 +251,10 @@ footer nav ul li a:hover {
 .work-day p,
 .ecom p,
 .pickup p,
-.pizza-hunt p {
+.pizza-hunt p,
+.note p,
+.contact p,
+.social-net p {
   padding-bottom: .2rem;
   display: flex;
   text-align: center;
@@ -275,7 +287,10 @@ footer nav ul li a:hover {
 .workday-img,
 .ecom-img,
 .pickup-img,
-.pizza-hunt-img {
+.pizza-hunt-img,
+.note-img,
+.contact-img,
+.social-net-img {
   width: 25rem;
   border-radius: 0 0 10px 10px;
 }
